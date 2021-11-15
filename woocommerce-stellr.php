@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Woocommerce Stellr
- * Plugin URI:      PLUGIN SITE HERE
+ * Plugin URI:      https://github.com/rawdreeg/woocommerce-stellr
  * Description:     Integration to the Stellr prepaid cards provider API.
  * Author:          Tusse, Rodrigue
  * Author URI:      https://rodrigue.xyz
