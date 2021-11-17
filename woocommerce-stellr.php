@@ -120,7 +120,7 @@ if ( ! class_exists( 'WC_Stellr' ) ) :
 		 * Get the products from stellr API
 		 */
 		public function wc_stellr_get_products() {
-			$products = WC_Stellr_Integration_API::stellr_api_request( $this->woocommerce-stellr['base_url'] . 'product', $this->woocommerce-stellr['api_key'], 'GET' );
+			$products = WC_Stellr_Integration_API::stellr_api_request( $this->settings['base_url'] . 'product', $this->settings['api_key'], 'GET' );
 			if ( $products ) {
 				foreach ( $products as $product ) {
 					if ( $product['country'] === 'ZA' && $product['status'] == 'Active' ) {
