@@ -1,6 +1,6 @@
 === Woocommerce Stellr ===
 Contributors: rawdreeg
-Donate link: https://rawdreeg.xyz/
+Donate link: https://rodirgue.xyz/
 Tags: Woocommerce, Stellr voucher
 Requires at least: 4.5
 Tested up to: 5.8.2
